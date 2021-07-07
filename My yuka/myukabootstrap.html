@@ -5,48 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!--fichier css à activer en supprimant les tags commentaires, mettre en commentaire les links vers bootstrap si celui-ci est activé-->
-    <link rel="stylesheet" href="css/mycss.css">
-    <!--<link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <!--<link rel="stylesheet" href="css/mycss.css">-->
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.css">-->
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
 
     <title>My yuka</title>
 </head>
 
 <body>
-    <!--<script src=" js/bootstrap.bundle.js " src="js/bootstrap.js " src="js/bootstrap.min.js "></script>-->
+    <script src="js/bootstrap.bundle.js "></script>
 
     <header>
-        <div class="bandeau">
+        <section class="container-fluid text-center shadow p-3 rounded-bottom"
+            style="background-color: #33cc00;padding: 5px;">
             <h1>My yuka</h1>
             <h2>Obtenez les informations sur les produits alimentaires</h2>
-        </div><br>
-        <p class="scan"><input type="text "><br>
+        </section><br>
+        <p class="container-fluid text-center shadow p-3 rounded-bottom"
+            style="background-color:#33cc00 ;padding: 15px;"><input type="text"><br>
             <button>Recherche</button>
         </p>
 
 
     </header>
-    <div id="conteneur">
-        <img class="element" src="img/petitpois.png" alt="sachet de petit pois">
-        <article class="element">
+    <section class="container-fluid row shadow p-3 rounded-bottom">
+        <img class="col-auto  img-fluid" src="img/petitpois.png" alt="sachet de petit pois">
+        <article class="col ">
             <h4>Ingrédients:</h4>
             <p>Petit pois doux</p>
-            <img class="taille" src="img/sanshuile.png" alt="sans huile de palme">
-            <img class="taille" src="img/vegetalien.png" alt="végétalien">
-            <img class="taille" src="img/vegetarien.png" alt="végétarien">
+            <img src="img/sanshuile.png" alt="sans huile de palme">
+            <img src="img/vegetalien.png" alt="végétalien">
+            <img src="img/vegetarien.png" alt="végétarien">
         </article>
-        <article>
-            <p>Labels, certifications, récompenses</p><img class="taille" src="img/bio.png" alt="bio"><img
-                src="img/bio-europeen.png" alt="bio-europeen">
+        <article class="col ">
+            <p>Labels, certifications, récompenses</p><img src="img/bio.png" alt="bio"><img src="img/bio-europeen.png"
+                alt="bio-europeen">
         </article>
-    </div>
+    </section>
 
-    <div id="information">
-        <table>
+    <section class="container-fluid row shadow p-3 rounded-bottom ">
+        <table class="col">
             <thead>
                 <tr>
                     <th scope="col">Informations nutritionnelles</th>
@@ -116,31 +118,31 @@
             </tbody>
 
         </table>
-        <article>
+        <article class="col ">
             <h2>Caractéristiques du produits:</h2>
             <p>Petit pois: surgelé<br> Quantité: 600g<br>Conditionnement: plastique<br>Marque:Picard le Bio<br>Origine
                 des ingrédients: Italie</p>
         </article>
-        <article>
+        <article class="col ">
             <h2>NOVA 1</h2>
-            <p>Aliments non transformés ou minimalement transformés</p> <img class="taille" src="img/nova.png"
-                alt="nova score">
+            <p>Aliments non transformés ou minimalement transformés</p> <img src="img/nova.png" alt="nova score">
             <h2>Nutri-score A</h2>
             <p>Très bonne qualité alimentaire</p>
-            <img class="taille" src="img/nutriscore.png" alt="nutri score">
+            <img src="img/nutriscore.png" alt="nutri score">
         </article>
 
-    </div>
-    <article>
-        <p>
-        <h2>Allergènes :</h2>aucun Allergènes connu.</p>
+    </section>
+    <article class="container-fluid row shadow p-3 rounded-bottom">
+        
+        <h2>Allergènes :</h2><p>aucun Allergènes connu.</p>
     </article>
-    <footer>
-        <p style="background-color: rgb(83, 189, 231);">© 2021 laurent kégreisz </p><a href="tel: 0678523251">Appelez
-            nous</a><a href="mailto:m.bluth@example.com">Contactez nous</a><a href="#top">Haut de page</a>
+    <footer class="container-fluid row shadow p-3 rounded-bottom text-center">
+        <p class="col badge bg-primary">© 2021 laurent kégreisz </p><a class="col" href="tel:0678523251">Appelez
+            nous</a><a class="col" href="mailto:m.bluth@example.com">Contactez nous</a><a class="col" href="#top">Haut
+            de page</a>
     </footer>
 </body>
 
 
 
-</html> 
+</html>
