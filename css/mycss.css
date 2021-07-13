@@ -12,7 +12,13 @@ html {
     border-bottom-right-radius: 5px;
 }
 
-
+img {
+    display: flex;
+    max-width: 100%;
+    margin: 0.5px;
+    padding: 1px;
+    
+}
 
 h1 {
     font: bolder 45px "Roboto";
@@ -24,12 +30,12 @@ h2 {
 }
 
 .scan {
-    background-color: #33cc00;              
+    background-color: #33cc00;
 
     padding: 15px;
     text-align: center;
     margin: 0;
-    box-shadow: 6px 6px 6px rgb(146, 142, 142);
+    box-shadow: 6px 6px 15px  rgb(146, 142, 142);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -45,34 +51,22 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 0px;
+    
+    box-shadow: 6px 6px 15px  rgb(146, 142, 142);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
 }
 
-.element:nth-child(1) {
-    max-width: 40%;
-}
 
-.element:nth-child(2) {
-    box-shadow: 6px 6px 6px rgb(146, 142, 142);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding: 10px;
-    margin: 15px;
-}
 
-.taille {
-    display: flex;
-    max-width: 80%;
-    margin: 0.2px;
-    padding: 1px;
-}
+
 
 td {
     text-align: center;
     font-size: smaller;
-
     border: 1px solid rgb(146, 142, 142);
 }
 
@@ -83,29 +77,41 @@ th {
 #information {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
+    box-shadow: 6px 6px 15px  rgb(146, 142, 142);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
 }
 
 article {
-    box-shadow: 6px 6px 6px rgb(146, 142, 142);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     padding: 5px;
     margin: 5px;
     font-size: small;
+    border: 1px solid rgb(240, 224, 196);
+    border-radius: 15px;
+
+}
+
+.allergenes {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 6px 6px 15px  rgb(146, 142, 142);
+    margin: 0;
 
 }
 
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    box-shadow: 6px 6px 6px rgb(146, 142, 142);
+    box-shadow: 6px 6px 15px rgb(146, 142, 142);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+   
 }
+a:link{color: cornflowerblue;}
+a:visited{color: crimson;}
